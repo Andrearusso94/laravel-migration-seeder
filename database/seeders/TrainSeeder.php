@@ -18,16 +18,16 @@ class TrainSeeder extends Seeder
     {
         for ($i = 0; $i < 10; $i++) {
             $train = new Train();
-            $train->Azienda = $faker->randomElement(['Italo', 'Trenitalia', 'FlixTrain']);
-            $train->Data_di_partenza = $faker->dateTimeThisMonth();
-            $train->Stazione_di_partenza = $faker->randomElement(['Roma Termini', 'Milano Centrale', 'Torino Porta Susa']);
-            $train->Stazione_di_arrivo = $faker->randomElement(['Napoli Centrale', 'Salerno', 'Bologna Centrale']);
-            $train->Orario_di_partenza = $faker->randomFloat(2, 1, 24);
-            $train->Orario_di_arrivo = $faker->randomFloat(2, 1, 24);
-            $train->Codice_Treno = $faker->randomBetween(1, 50);
-            $train->Numero_Carrozze = $faker->randomDigitNotNull();
-            $train->In_orario = $faker->randomElement(['True', 'False']);
-            $train->Cancellato = $faker->randomElement(['True', 'False']);
+            $train->azienda = $faker->randomElement(['Italo', 'Trenitalia', 'FlixTrain']);
+            $train->data_di_partenza = $faker->dateTimeThisMonth();
+            $train->stazione_di_partenza = $faker->randomElement(['Roma Termini', 'Milano Centrale', 'Torino Porta Susa']);
+            $train->stazione_di_arrivo = $faker->randomElement(['Napoli Centrale', 'Salerno', 'Bologna Centrale']);
+            $train->orario_di_partenza = $faker->randomFloat(2, 1, 24);
+            $train->orario_di_arrivo = $faker->randomFloat(2, 1, 24);
+            $train->codice_treno = $faker->randomFloat(1, 10, 100);
+            $train->numero_carrozze = $faker->randomDigitNotNull();
+            $train->in_orario = $faker->randomElement([True, False]);
+            $train->cancellato = $faker->randomElement([True, False]);
             $train->save();
         }
     }

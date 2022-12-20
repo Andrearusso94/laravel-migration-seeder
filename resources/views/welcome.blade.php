@@ -1,7 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container h-100">
+    <h1 class="text-center">Welcome TRAIN by Andrea Russo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sed doloribus accusamus itaque harum nisi consectetur magnam, impedit ipsam iste consequuntur blanditiis modi tempore at? Explicabo maxime natus magni doloribus tempore quidem suscipit consequuntur deleniti enim ex aut cupiditate alias repellat officiis reprehenderit, totam in sequi quisquam, quia ab ratione error. Officiis, modi! Aliquid soluta, amet qui itaque iste reprehenderit placeat officiis voluptate. Nisi aperiam mollitia ab ratione soluta et fuga obcaecati ex iure maxime incidunt porro quisquam quos dicta, assumenda veritatis placeat dolorem quibusdam. Provident eligendi exercitationem commodi accusamus natus nulla corrupti quidem quae. Cum voluptas beatae asperiores. Quia nam autem error consequuntur ad accusamus natus corrupti nostrum voluptatum expedita? Consequatur suscipit adipisci voluptate illum quidem molestias laborum dolorem, aliquam doloribus qui natus debitis dolor odio. Nam hic, ipsa voluptatum rerum commodi sint neque vero ad sapiente fugit obcaecati illum magnam ea dicta, rem placeat natus facilis molestiae ipsam nostrum tenetur in? Doloribus, laudantium quo ipsam odit earum itaque voluptatem vero ab nihil sunt aliquid sapiente ullam architecto deserunt reiciendis consequatur quos vel, aspernatur hic nemo. Numquam voluptatum excepturi facere, deleniti suscipit pariatur, vel quis tempore eligendi qui, nemo eveniet ea labore nihil error odio officia expedita dolor eum. Quam eius possimus repudiandae molestiae animi excepturi ad doloribus assumenda libero voluptatum commodi velit fugit iusto officia, maxime accusamus nihil doloremque odit dolorem illo neque sapiente reprehenderit optio? Obcaecati perferendis cum recusandae numquam, quaerat nemo esse optio odio, quos totam explicabo unde sit maxime vel? Temporibus obcaecati blanditiis quae dolor!</p>
+</div>
 
-<h1>Welcome TRAIN by Andrea Russo</h1>
 
 @endsection('content')
